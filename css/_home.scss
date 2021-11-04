@@ -1,0 +1,15 @@
+.homeHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 5rem 0;
+}
+
+.headingMsg {
+  font-size: $Headsize;
+  font-family: $HeadFont;
+}
+
+.headPic {
+  width: 99%;
+}

@@ -1,0 +1,32 @@
+//round 1 in navigation bar
+.round1 {
+  position: absolute;
+  border-radius: 50%;
+  width: 931px;
+  height: 460px;
+  right: 100px;
+  top: -300px;
+  background: $SecColor;
+  z-index: -1;
+}
+
+// // round 2 in contact page.
+// .round2{
+//   height: 500px;
+//   width: 500px;
+//   border-radius: 50%;
+//   position: absolute;
+//   bottom: -100px;
+//   left: -100px;
+//   background: $SecColor;
+// }
+//
+// // round 3 in about page.
+// .round3 {
+//   height: 500px;
+//   width: 500px;
+//   position: absolute;
+//   right: -350px;
+//   background: $SecColor;
+//   border-radius: 50%;
+// }

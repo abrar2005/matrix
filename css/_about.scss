@@ -1,0 +1,33 @@
+.aboutHeader {
+  padding: 12rem 13% 6rem;
+}
+
+.aboutTxt {
+  width: 70%;
+  color: $PriColor;
+  margin-bottom: 2rem;
+  font-size: $Txtsize;
+  font-family: $txtFont;
+  line-height: 1.5;
+}
+
+.title {
+  font-size: $titlesize;
+  font-family: $txtFont;
+  border-bottom: $TatColor 5px solid;
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.backgroundTitle {
+  font-size: $backgroundTitle;
+  font-family: $txtFont;
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  color: $backgroundTitleColor;
+}

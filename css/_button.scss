@@ -1,0 +1,39 @@
+.btn {
+	background-color:#42d6ff;
+	border-radius:42px;
+	border:4px solid #94e8ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#0b323d;
+	font-family:$txtFont;
+	font-size:28px;
+	padding:11px 76px;
+	text-decoration:none;
+  margin-top: 2rem;
+}
+.btn:hover {
+	background-color:#a1ebff;
+}
+
+.contactBtn {
+	background-color:#44c767;
+	border-radius:10px;
+	border:2px solid #18ab29;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:$txtFont;
+	font-size:18px;
+	padding: 10px 0;
+	width: 200px;
+	margin: 4rem auto;
+}
+.contactBtn:hover {
+	background-color:#5cbf2a;
+}
+
+.infoBtn {
+	border-radius: 5px;
+	padding: .5rem 2rem;
+	font-size: 1.1rem;
+	border: 1px solid;
+}

@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+.pageLink {
+  text-decoration: none;
+  color: black;
+  font-size: $linkSize;
+  font-family: $txtFont;
+}
+.logoName {
+  font-family: $logoFont;
+  font-size: $logosize;
+  margin: 0;
+  padding: 0;
+  letter-spacing: .3rem;
+  color: $footerBackColor
+}

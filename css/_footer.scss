@@ -1,0 +1,39 @@
+footer {
+	background-color: $footerBackColor;
+	margin-top: 15%;
+	padding: 3rem 4rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: $txtFont;
+
+	a,
+	p {
+		text-decoration: none;
+		color: $footerColor;
+		line-height: 2;
+	}
+
+	h3 {
+		color: $footerColor;
+	}
+}
+
+
+.company,
+.contact,
+.developer {
+	padding: 0 5rem;
+	display: flex;
+	flex-direction: column;
+	color: $footerColor;
+}
+
+.logoFooter {
+	font-family: $logoFont;
+     font-size: $logosize;
+     margin: 0;
+     padding: 0;
+     letter-spacing: .3rem;
+     color: $footerColor;
+}

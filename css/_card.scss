@@ -1,0 +1,35 @@
+.cardpic img {
+	width: 100%;
+	height: 10rem;
+	border-radius: 10px 10px 0 0;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 3rem;
+	margin-top: 5rem;
+}
+
+.card {
+	border-radius: 10px;
+	width: 15rem;
+	border: 1px solid $TatColor;
+}
+
+.Txt {
+	padding: 1rem;
+}
+
+.cardTitle {
+	font-size: $Txtsize;
+	font-family: $txtFont;
+	padding-bottom: 1rem;
+	margin: 0;
+}
+
+.Txt p {
+	width: 13rem;
+	font-size: 1rem;
+}

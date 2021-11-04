@@ -1,0 +1,30 @@
+@import "./variables";
+@import "./navigation";
+@import "./responsive";
+@import "./button";
+@import "./rounds";
+@import "./home";
+@import "./about";
+@import "./contact";
+@import "./card";
+@import "./terms";
+@import "./footer";
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	font-family: $txtFont;
+	font-size: $Txtsize;
+}
+
+a {
+	text-decoration: none;
+	color: $PriColor;
+}

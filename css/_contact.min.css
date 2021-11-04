@@ -1,0 +1,1 @@
+.contactHeader{padding:6rem 0 6rem;display:flex;justify-content:center}.contactHeader .forms{display:inline-flex;flex-direction:column;padding:1rem 3rem}.contactHeader .forms input,.contactHeader .forms textarea{width:500px;height:70px}.contactHeader .forms label:not(:first-of-type){margin-top:3rem}

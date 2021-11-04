@@ -1,0 +1,43 @@
+.contactHeader {
+	padding: 6rem 0 0;
+	display: flex;
+	justify-content: center;
+
+	.title {
+		width: 50%;
+	}
+
+	.forms {
+		display: inline-flex;
+		flex-direction: column;
+		padding: 1rem 3rem 0;
+
+		input {
+			width: 500px;
+			height: 40px;
+		}
+
+		textarea {
+			width: 500px;
+			height: 150px;
+		}
+
+		input,
+		textarea {
+			border-radius: 10px;
+			background-color: $SecColor;
+			border: 1px solid $TatColor;
+			padding: 0.5rem 1rem;
+			font-size: $Txtsize;
+		}
+	}
+}
+
+label {
+	font-family: $txtFont;
+	padding: 0.5rem 0;
+
+	&:not(:first-of-type) {
+		margin-top: 2rem;
+	}
+}
